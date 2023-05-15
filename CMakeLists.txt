@@ -9,7 +9,7 @@ set(submake "make")
 endif()
 
 if (${IDF_VERSION_MAJOR} EQUAL 5)
-    set(CMAKE_C_STANDARD 17)
+    set(CMAKE_C_STANDARD 11)
 else()
     set(CMAKE_C_STANDARD 11)
 endif()
